@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 cline_docs
+package-lock.json
 /build
 /.svelte-kit
 /package
