@@ -1801,10 +1801,7 @@
 />
 
 {#if !chatIdProp || (loaded && chatIdProp)}
-	<div
-		class="h-screen max-h-[100dvh] w-full max-w-full flex flex-col"
-		id="chat-container"
-	>
+	<div class="h-screen max-h-[100dvh] w-full max-w-full flex flex-col" id="chat-container">
 		{#if $settings?.backgroundImageUrl ?? null}
 			<div
 				class="absolute {$showSidebar

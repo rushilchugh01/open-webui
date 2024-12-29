@@ -780,7 +780,7 @@
 					</div>
 				</Drawer>
 			{/if}
-			
+
 			<!-- List of Files within a Knowledge Collection -->
 			<div
 				class="{largeScreen ? 'flex-shrink-0 w-72 max-w-72' : 'flex-1'}
