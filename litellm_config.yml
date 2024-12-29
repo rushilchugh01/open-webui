@@ -1,0 +1,14 @@
+model_list:
+  - model_name: gemini-2.0-flash-exp
+    litellm_params:
+      model: gemini/gemini-2.0-flash-exp
+      api_key: os.environ/GEMINI_API_KEY
+  - model_name: gemini-2.0-flash-thinking-exp-1219
+    litellm_params:
+      model: gemini/gemini-2.0-flash-thinking-exp-1219
+      api_key: os.environ/GEMINI_API_KEY
+
+general_settings: {}
+litellm_settings:
+  success_callback: ["langfuse"]
+  failure_callback: ["langfuse"]
